@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Todolist</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/2606ff6f13.js" crossorigin="anonymous" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <!-- Clear todos and header -->
+  <header class="center">
+    <h1>Todolist</h1>
+    <button class="btn clearBtn" title="Clear evething" onclick="clearTodos()"> <i class="fas fa-sync-alt"></i> </button>
+  </header>
+
+  <!-- Todos container -->
+
+  <div id="content">
+    <!-- <div class="todo">
+      <button class="btn checkBtn" onclick="checkTodo(this)"> <i class="far fa-circle"></i> </button>
+      <p class="text">I got that to</p>
+      <button class="btn removeBtn" onclick="removeTodo(this)"> <i class="fas fa-trash"></i> </button>
+    </div> -->
+  </div>
+
+  <!-- Add todo -->
+  <div id="addSection">
+    <button class="btn addBtn" onclick="addTodo()"> <i class="fas fa-plus-circle"></i> </button>
+    <input type="text" placeholder="Add a todo here..." />
+  </div>
+
+</body>
+</html>
